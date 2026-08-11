@@ -1,0 +1,21 @@
+merge,pull,fetch cmds
+=============================
+git init
+git status
+git add.
+after from git hub..........
+
+============================
+
+git status
+git fetch origin
+git status
+git log HEAD.. origin/main
+git merge origin/main
+
+
+=======================
+pull at a time files 
+
+git status
+git pull 

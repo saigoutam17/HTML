@@ -1,0 +1,15 @@
+/* Extrenal stylesheet*/
+h1{
+    color: brown;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    font-size: medium;
+}
+p{
+     color: black;
+    text-align: left;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
