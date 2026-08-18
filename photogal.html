@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo gallary</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: wheat;
+}
+        h1{
+            margin:20px 0;
+        }
+        .gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
+padding: 20px;
+max-width: 1200px;
+margin: 0 auto;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery img:hover {
+transform: scale(1.1);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+.gallery {
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+}
+    </style>
+</head>
+<body>
+    <h2>Nature pics</h2>
+    <div class="gallery">
+<img src="nature1" alt="Destination 1">
+<img src="nature2.jpg" alt="Destination 2">
+<img src="nature3.jpg" alt="Destination 4">
+<img src="nature4.jpg" alt="Destination 5">
+</div>
+    
+</body>
+</html>

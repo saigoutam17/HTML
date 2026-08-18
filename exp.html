@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio </title>
+<style>
+/* General Reset */
+body {
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+line-height: 1.6;
+}
+/* Header */
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: #e88310;
+color: white;
+}
+.nav a {
+margin: 0 10px;
+color: rgb(244, 22, 51);
+text-decoration: none;
+}
+.nav a:hover {
+text-decoration:beige;
+}
+/* Main Section */
+.main {
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 80px;
+background-color: #f0f3f0;
+}
+.section {
+flex: 1;
+margin: 10px;
+padding: 70px;
+
+background-color: #b9bde2;
+border: 2px round #f0f3f0;
+border-radius: 25px;
+box-shadow: 0 2px 4px rgba(0.5, 0, 0, 0.9);
+}
+/* Footer */
+.footer {
+text-align: center;
+padding: 10px;
+background-color: #0cea3c;
+color: white;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<h1>S.Sai Goutam</h1>
+<nav class="nav">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<main class="main">
+<section id="about" class="section intro">
+About Me: <br>
+S.Sai Goutam
+B.Tech 2nd year
+KL University
+Vaddeswaram
+</section>
+<section id="projects" class="section projects">
+Projects: <br> Project 1, Project 2...
+</section>
+<section id="skills" class="section skills">
+Skills: HTML, CSS, JavaScript...
+</section>
+</main>
+<footer class="footer">
+<p>Contact: rseetharam@gmail.com | Follow me on <a href="#">LinkedIn</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number_grid</title>
+    <style>
+        .container{
+            display: grid;
+            border: 1px solid gray;
+            grid-row:25% 25% 25% 25%;
+            grid-column: 25% 25% 25% 25%;
+            gap: 1px;
+        }
+        .header{
+            background-color: aqua;
+            height:25vh;
+            grid-row: 1/2;
+            grid-column: 1/5;
+        }
+        .sb1{
+            background-color: rgb(231, 188, 137);
+            height: 25vh;
+            grid-row: 2/3;
+            grid-column: 1/5;
+        }
+        .sb2{
+            background-color: rgb(123, 191, 237);
+            height: 25vh;
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        .sb3{
+            background-color: rgb(106, 234, 166);
+            height: 25vh;
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+        .sb{
+            background-color: rgb(199, 121, 241);
+            height: 50vh;
+            grid-row: 2/4;
+            grid-column: 4/5;
+        }
+        .main{
+            background-color: rgb(112, 110, 231);
+            height: 25vh;
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+        .footer{
+            background-color: rgb(195, 248, 248);
+            height:25vh;
+            grid-row:4/5;
+            grid-column: 1/5;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"> Header of the page 
+            <span>home</span>
+            <span>
+                about
+            </span>
+            <span>login</span>
+        </div>
+        <div class="sb1">small box - 1</div>
+        <div class="sb2">small box - 2</div>
+        <div class="sb3">small box - 3</div>
+        <div class="sb"> side bar</div>
+        <div class="main"> main section / body</div>
+        <div class="footer"></div>
+</body>
+</html>
